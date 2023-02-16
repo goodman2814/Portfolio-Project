@@ -340,7 +340,7 @@ header h2 {
 }
 
 #work h3 {
-  width: 100;
+  width: 100%;
 }
 
 .portfolio-wrapper {
@@ -351,7 +351,7 @@ header h2 {
 }
 
 .home-portfolio-piece {
-  width: 100;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;

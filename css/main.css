@@ -448,6 +448,7 @@ footer .social-icons {
   justify-content: space-around;
 }
 
+
 footer ul {
   width: 100%;
 }
@@ -693,7 +694,7 @@ footer .social-icons li i {
 
   .skill,
   .tool {
-    /*  width: auto; */
+     /* width: 50%; */
     width: 45%;
   }
 
@@ -737,7 +738,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   footer .social-icons li i {
@@ -817,6 +818,7 @@ footer .social-icons li i {
   }
 
   nav {
+    display: flex;
     margin-bottom: 80px;
   }
 
@@ -887,6 +889,7 @@ footer .social-icons li i {
 
   /* header */
   header .content-wrapper {
+    display: flex;
     justify-content: flex-end;
   }
 
@@ -923,8 +926,10 @@ footer .social-icons li i {
   /* skills */
   .skill,
   .tool {
-    width: 30%;
+    width: 32%;
   }
+
+  .language-wrapper
 
   /* about */
   .about-content-wrapper {
@@ -948,7 +953,7 @@ footer .social-icons li i {
 
   footer .social-icons {
     width: 12.5em;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 

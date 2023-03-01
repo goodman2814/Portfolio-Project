@@ -114,7 +114,7 @@ h1 {
   font-size: 1.75rem;
   line-height: 1.5;
   width: 100%;
-  filter: drop-shadow(1px 2px #595a4a);
+  filter: drop-shadow(1px 2px #00afb5);
 }
 
 h2 {
@@ -403,7 +403,7 @@ header h2 {
 
 #work h3 {
   width: 100%;
-  filter: drop-shadow(1px 1px #5ac3b0);
+  filter: drop-shadow(1px 1px #595a4a);
   color: #f9564f;
   text-transform: uppercase;
 }
@@ -595,6 +595,10 @@ header h2 {
   text-transform: uppercase;
 }
 
+.skills-header {
+  filter: drop-shadow(1px 1px #5ac3b0);
+}
+
 #skills h4 {
   margin: 40px 0 40px 0;
   font-weight: bold;
@@ -639,6 +643,11 @@ footer {
   background-color: #5d007f;
 }
 
+footer h3 {
+  filter: drop-shadow(1px 1px #5ac3b0);
+  font-size: 3rem;
+}
+
 footer .contact-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -663,7 +672,7 @@ footer .follow-section {
 footer .social-icons {
   display: flex;
   justify-content: space-around;
-  filter: drop-shadow(1px 1px #595a4a);
+  filter: drop-shadow(.1rem .1rem #595a4a);
 }
 
 footer .social-icons .fa-linkedin:hover {

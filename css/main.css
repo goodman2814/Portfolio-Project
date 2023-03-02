@@ -421,7 +421,6 @@ header h2 {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #00afb5 50%;
 }
 
 .home-portfolio-piece h4 {
@@ -496,7 +495,7 @@ header h2 {
   color: #f9564f;
   filter: drop-shadow(.15rem .15rem .1rem #595a4a);
   /* position: relative; */
-  background: #f9564f;
+  /* background: #f9564f; */
   /* transform: translate3d(0px, 0%, 0px);
   text-decoration: none;
   font-size: 1em;
@@ -571,13 +570,13 @@ header h2 {
 .project-link:hover:after {
   border-radius: 0 0 50% 50%;
   transform: translateY(-100%) scaleY(0.5);
-  transition-delay: 0;
+  transition-delay: 0s;
 }
 
 .project-link:hover:before {
   border-radius: 0;
   transform: translateY(0) scaleY(1);
-  transition-delay: 0;
+  transition-delay: 0s;
 }
 
 .project-link:hover span:first-child {
@@ -610,7 +609,7 @@ header h2 {
   background-color: #00afb5;
   padding: 15px 0;
   margin: 20px 0;
-  filter: drop-shadow(.15rem .15rem #595a4a);
+  filter: drop-shadow(.15rem .15rem #f3c677);
 }
 
 .tool {

@@ -539,11 +539,11 @@ header h2 {
   transition-delay: 0s;
 }
 
-.project-link:hover span:first-child {
+@supports (.project-link:hover span:first-child) {
   transform: translateY(0);
 }
 
-.project-link:hover span:last-child {
+@supports (.project-link:hover span:last-child) {
   /* transform: translateY(-24px); */
   transform: translateY(-50px);
 }

@@ -317,7 +317,7 @@ header nav ul li {
 }
 
 header a {
-  color: #f9564f;
+  color: #F4BEBE;
   position: relative;
 }
 
@@ -373,6 +373,10 @@ header h2 {
   filter: drop-shadow(1px 1px #595a4a);
   color: #f9564f;
   text-transform: uppercase;
+}
+
+#work p {
+  color: #B10C06
 }
 
 .portfolio-wrapper {
@@ -456,6 +460,7 @@ header h2 {
 
 
 .project-link {
+  position: relative;
   background-color: #f3c677;
   padding: .75rem 3.75rem;
   border-radius: 30px;
@@ -587,10 +592,13 @@ header h2 {
   filter: drop-shadow(.3rem .3rem .05rem #595a4a);
 }
 
-#about h3,
+#about h3 {
+  color: #f9564f;
+}
+
 #about h4,
 #about p {
-  color: #f9564f;
+  color: #AF0E08;
 }
 
 
@@ -604,6 +612,10 @@ footer {
 footer h3 {
   filter: drop-shadow(1px 1px #5ac3b0);
   font-size: 3rem;
+}
+
+footer p {
+  color: #F9B7B4;
 }
 
 footer .contact-wrapper {

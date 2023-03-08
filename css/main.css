@@ -18,14 +18,14 @@ html {
 }
 
 /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
+     * Remove text-shadow in selection highlight:
+     * https://twitter.com/miketaylr/status/12228805301
+     *
+     * Vendor-prefixed and regular ::selection selectors cannot be combined:
+     * https://stackoverflow.com/a/16982510/7133471
+     *
+     * Customize the background color to match your design.
+     */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -38,8 +38,8 @@ html {
 }
 
 /*
-   * A better looking default horizontal rule
-   */
+     * A better looking default horizontal rule
+     */
 
 hr {
   display: block;
@@ -51,10 +51,10 @@ hr {
 }
 
 /*
-   * Remove the gap between audio, canvas, iframes,
-   * images, videos and the bottom of their containers:
-   * https://github.com/h5bp/html5-boilerplate/issues/440
-   */
+     * Remove the gap between audio, canvas, iframes,
+     * images, videos and the bottom of their containers:
+     * https://github.com/h5bp/html5-boilerplate/issues/440
+     */
 
 audio,
 canvas,
@@ -66,8 +66,8 @@ video {
 }
 
 /*
-   * Remove default fieldset styles.
-   */
+     * Remove default fieldset styles.
+     */
 
 fieldset {
   border: 0;
@@ -76,16 +76,16 @@ fieldset {
 }
 
 /*
-   * Allow only vertical resizing of textareas.
-   */
+     * Allow only vertical resizing of textareas.
+     */
 
 textarea {
   resize: vertical;
 }
 
 /* ==========================================================================
-     Author's custom styles
-     ========================================================================== */
+       Author's custom styles
+       ========================================================================== */
 
 /***** General Styles ****/
 
@@ -456,6 +456,7 @@ header h2 {
 
 
 .project-link {
+  position: relative;
   background-color: #f3c677;
   padding: .75rem 3.75rem;
   border-radius: 30px;
@@ -476,6 +477,7 @@ header h2 {
   transform: translateY(100%) scaleY(0.5);
   transition: all 0.6s ease;
 }
+
 
 .project-link:after {
   content: '';
@@ -511,6 +513,7 @@ header h2 {
   transition: transform 0.5s ease;
 }
 
+
 .project-link span:first-child {
   color: #FFFFFF;
   transform: translateY(30px);
@@ -518,13 +521,13 @@ header h2 {
 
 .project-link span:last-child {
   color: #f9564f;
-  transform: translateY(0);
+  transform: translateY(-20);
 }
 
 .project-link:hover {
   background: #5ac3b0;
   transition: background 0.2s linear;
-  transition-delay: 0.6s;
+  transition-delay: 0.2s;
 }
 
 .project-link:hover:after {
@@ -661,12 +664,12 @@ footer .social-icons li i {
 
 
 /* ==========================================================================
-     Helper classes
-     ========================================================================== */
+       Helper classes
+       ========================================================================== */
 
 /*
-   * Hide visually and from screen readers
-   */
+     * Hide visually and from screen readers
+     */
 
 .hidden,
 [hidden] {
@@ -674,13 +677,13 @@ footer .social-icons li i {
 }
 
 /*
-   * Hide only visually, but have it available for screen readers:
-   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-   *
-   * 1. For long content, line feeds are not interpreted as spaces and small width
-   *    causes content to wrap 1 word per line:
-   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-   */
+     * Hide only visually, but have it available for screen readers:
+     * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+     *
+     * 1. For long content, line feeds are not interpreted as spaces and small width
+     *    causes content to wrap 1 word per line:
+     *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+     */
 
 .sr-only {
   border: 0;
@@ -696,10 +699,10 @@ footer .social-icons li i {
 }
 
 /*
-   * Extends the .sr-only class to allow the element
-   * to be focusable when navigated to via the keyboard:
-   * https://www.drupal.org/node/897638
-   */
+     * Extends the .sr-only class to allow the element
+     * to be focusable when navigated to via the keyboard:
+     * https://www.drupal.org/node/897638
+     */
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -713,24 +716,24 @@ footer .social-icons li i {
 }
 
 /*
-   * Hide visually and from screen readers, but maintain layout
-   */
+     * Hide visually and from screen readers, but maintain layout
+     */
 
 .invisible {
   visibility: hidden;
 }
 
 /*
-   * Clearfix: contain floats
-   *
-   * For modern browsers
-   * 1. The space content is one way to avoid an Opera bug when the
-   *    `contenteditable` attribute is included anywhere else in the document.
-   *    Otherwise it causes space to appear at the top and bottom of elements
-   *    that receive the `clearfix` class.
-   * 2. The use of `table` rather than `block` is only necessary if using
-   *    `:before` to contain the top-margins of child elements.
-   */
+     * Clearfix: contain floats
+     *
+     * For modern browsers
+     * 1. The space content is one way to avoid an Opera bug when the
+     *    `contenteditable` attribute is included anywhere else in the document.
+     *    Otherwise it causes space to appear at the top and bottom of elements
+     *    that receive the `clearfix` class.
+     * 2. The use of `table` rather than `block` is only necessary if using
+     *    `:before` to contain the top-margins of child elements.
+     */
 
 .clearfix::before,
 .clearfix::after {
@@ -743,10 +746,10 @@ footer .social-icons li i {
 }
 
 /* ==========================================================================
-     EXAMPLE Media Queries for Responsive Design.
-     These examples override the primary ('mobile first') styles.
-     Modify as content requires.
-     ========================================================================== */
+       EXAMPLE Media Queries for Responsive Design.
+       These examples override the primary ('mobile first') styles.
+       Modify as content requires.
+       ========================================================================== */
 @media (prefers-reduced-motion) {
   .home-portfolio-piece figure:hover {
     animation: shake .1s;
@@ -1161,10 +1164,10 @@ footer .social-icons li i {
 
 
 /* ==========================================================================
-     Print styles.
-     Inlined to avoid the additional HTTP request:
-     https://www.phpied.com/delay-loading-your-print-css/
-     ========================================================================== */
+       Print styles.
+       Inlined to avoid the additional HTTP request:
+       https://www.phpied.com/delay-loading-your-print-css/
+       ========================================================================== */
 
 @media print {
 
@@ -1192,9 +1195,9 @@ footer .social-icons li i {
   }
 
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+       * Don't show links that are fragment identifiers,
+       * or use the `javascript:` pseudo protocol
+       */
   a[href^="#"]::after,
   a[href^="javascript:"]::after {
     content: "";
@@ -1211,9 +1214,9 @@ footer .social-icons li i {
   }
 
   /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+       * Printing Tables:
+       * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+       */
   thead {
     display: table-header-group;
   }

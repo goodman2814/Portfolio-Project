@@ -520,12 +520,12 @@ header h2 {
 
 .project-link span:first-child {
   color: #FFFFFF;
-  transform: translateY(30px);
+  transform: translateY(50px);
 }
 
 .project-link span:last-child {
   color: #f9564f;
-  transform: translateY(-20px);
+  transform: translateY(0px);
 }
 
 .project-link:hover {

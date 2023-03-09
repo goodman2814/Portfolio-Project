@@ -525,7 +525,7 @@ header h2 {
 
 .project-link span:last-child {
   color: #f9564f;
-  transform: translateY(-20);
+  transform: translateY(-20px);
 }
 
 .project-link:hover {
@@ -698,7 +698,7 @@ footer .social-icons li i {
 
 .sr-only {
   border: 0;
-  clip: rect(0, 0, 0, 0);
+  clip-path: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -717,7 +717,7 @@ footer .social-icons li i {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip: auto;
+  clip-path: auto;
   height: auto;
   margin: 0;
   overflow: visible;

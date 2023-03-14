@@ -402,59 +402,60 @@ header h2 {
   width: 100%;
   filter: drop-shadow(.5rem .5rem .3rem #595a4a);
   transition: transform .7s ease-in-out;
+  border: 1px solid #f9564f;
 }
 
 .home-portfolio-piece figure:hover {
   width: 100%;
   filter: drop-shadow(1.5rem 1.5rem .4rem #595a4a);
-  animation: shake .4s;
+  animation: shake .15s;
 
 
 }
 
 @keyframes shake {
   0% {
-    transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(.5px, .5px) rotate(0deg);
   }
 
   10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-.5px, -1px) rotate(-.5deg);
   }
 
   20% {
-    transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-1.5px, 0px) rotate(.5deg);
   }
 
   30% {
-    transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(1.5px, 1px) rotate(0deg);
   }
 
   40% {
-    transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(.5px, -.5px) rotate(.5deg);
   }
 
   50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-.5px, 1px) rotate(-.5deg);
   }
 
   60% {
-    transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-1.5px, .5px) rotate(0deg);
   }
 
   70% {
-    transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(1.5px, .5px) rotate(-.5deg);
   }
 
   80% {
-    transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-.5px, -.5px) rotate(.5deg);
   }
 
   90% {
-    transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(.5px, 1px) rotate(0deg);
   }
 
   100% {
-    transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(.5px, -1px) rotate(-.5deg);
   }
 }
 

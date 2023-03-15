@@ -699,7 +699,7 @@ footer .social-icons li i {
 
 .sr-only {
   border: 0;
-  clip-path: rect(0, 0, 0, 0);
+  clip-path: none;
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -718,7 +718,7 @@ footer .social-icons li i {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip-path: auto;
+  clip-path: none;
   height: auto;
   margin: 0;
   overflow: visible;

@@ -183,6 +183,32 @@ address {
   font-style: normal;
 }
 
+#button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  filter: drop-shadow(.15rem .15rem #595a4a);
+  border: none;
+  outline: none;
+  background-color: #f9564f;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 40px;
+  font-size: 1rem;
+}
+
+#button:hover {
+  background-color: #00afb5;
+  filter: drop-shadow(.3rem .3rem .1rem #595a4a);
+}
+
+.fa-arrow-up {
+  color: white;
+}
+
 /**** Structural ****/
 
 header,
